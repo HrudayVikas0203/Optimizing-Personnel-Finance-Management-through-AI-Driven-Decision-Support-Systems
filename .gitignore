@@ -1,0 +1,20 @@
+# Byte-compiled / optimized
+__pycache__/
+*.py[cod]
+*.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Streamlit cache
+.streamlit/
+
+# Models / large artifacts (keep folder but not the pkl files)
+models/
+!models/.gitkeep
+
+# OS files
+.DS_Store
+Thumbs.db
